@@ -11,8 +11,7 @@
     padding: 10px 20px;
     position: relative;
      
-    position: sticky;
-    top: 0px;
+    
 }
 
 #logo {
@@ -150,6 +149,11 @@
 /* MOBILE */
 
 @media (max-width: 760px) {
+
+    .nav{
+         position:sticky;
+         top: 0;
+    }
 
     #logo {
         width: 140px;
