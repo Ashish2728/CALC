@@ -44,6 +44,12 @@ body{
     gap:12px;
 }
 
+.buttons{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:12px;
+}
+
 button{
     height:65px;
     border:none;
@@ -70,7 +76,6 @@ button:hover{
 .equal{
     background:#ff8800;
     color:white;
-    grid-column:span 2;
 }
 
 .clear{
